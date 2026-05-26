@@ -34,3 +34,6 @@ function submitQuiz() {
     document.getElementById("result-type").textContent = personalityType;
     document.getElementById("result-description").textContent = descriptions[personalityType];
 }
+function retakeQuiz() {
+    location.reload();
+}

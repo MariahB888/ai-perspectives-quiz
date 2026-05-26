@@ -31,6 +31,14 @@ function submitQuiz() {
     };
 
     document.getElementById("result").style.display = "block";
+    const icons = {
+    "Technologist": "⚙️",
+    "Humanist": "🌱",
+    "Pragmatist": "⚖️",
+    "Consciousness Explorer": "✨"
+};
+
+resultType.textContent = icons[personalityType] + " " + personalityType;
     document.getElementById("result-type").textContent = personalityType;
     document.getElementById("result-description").textContent = descriptions[personalityType];
 }

@@ -1,5 +1,4 @@
-/* Add the Open Sans font family */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+font-family: Arial, Helvetica, sans-serif;
 
 body {
     background: linear-gradient(135deg, #003352, #00b1ff);

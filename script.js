@@ -31,16 +31,5 @@ function submitQuiz() {
     };
 
     document.getElementById("result").style.display = "block";
-    const icons = {
-    "Technologist": "⚙️",
-    "Humanist": "🌱",
-    "Pragmatist": "⚖️",
-    "Consciousness Explorer": "✨"
-};
-
-document.getElementById("result-type").textContent = icons[personalityType] + " " + personalityType;
-    document.getElementById("result-description").textContent = descriptions[personalityType];
-}
-function retakeQuiz() {
-    location.reload();
-
+document.getElementById("result-type").textContent = personalityType;
+document.getElementById("result-description").textContent = descriptions[personalityType];

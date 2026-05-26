@@ -33,3 +33,4 @@ function submitQuiz() {
     document.getElementById("result").style.display = "block";
 document.getElementById("result-type").textContent = personalityType;
 document.getElementById("result-description").textContent = descriptions[personalityType];
+    }

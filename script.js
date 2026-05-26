@@ -38,18 +38,9 @@ function submitQuiz() {
     "Consciousness Explorer": "✨"
 };
 
-resultType.textContent = icons[personalityType] + " " + personalityType;
-    document.getElementById("result-type").textContent = personalityType;
+document.getElementById("result-type").textContent = icons[personalityType] + " " + personalityType;
     document.getElementById("result-description").textContent = descriptions[personalityType];
 }
 function retakeQuiz() {
     location.reload();
-}
-const icons = {
-    "Technologist": "⚙️",
-    "Humanist": "🌱",
-    "Pragmatist": "⚖️",
-    "Consciousness Explorer": "✨"
-};
 
-resultType.textContent = icons[personalityType] + " " + personalityType;

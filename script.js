@@ -37,3 +37,11 @@ function submitQuiz() {
 function retakeQuiz() {
     location.reload();
 }
+const icons = {
+    "Technologist": "⚙️",
+    "Humanist": "🌱",
+    "Pragmatist": "⚖️",
+    "Consciousness Explorer": "✨"
+};
+
+resultType.textContent = icons[personalityType] + " " + personalityType;

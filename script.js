@@ -53,10 +53,4 @@ function submitQuiz() {
     } else if (personalityType === "Consciousness Explorer") {
         resultDescription.textContent = "You are curious about AI’s deeper implications—whether ethical, philosophical, or consciousness-related. You question what it means to be intelligent and sentient, exploring the boundaries between human and artificial intelligence. You are open to new perspectives on technology’s role in shaping our understanding of the mind and reality.";
     }
-}
-function retakeQuiz() {
-    document.getElementById("quiz-form").reset();
-    document.getElementById("result").style.display = "none";
-    window.scrollTo(0, 0);
-}
 

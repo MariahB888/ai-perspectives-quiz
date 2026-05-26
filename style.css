@@ -69,5 +69,16 @@ footer p {
     font-style: italic;
     color: #555;
 }
+.intro {
+    font-size: 16px;
+    color: #003352;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
 
+.progress {
+    font-size: 14px;
+    color: #a7a9ac;
+    margin-bottom: 25px;
+}
 
